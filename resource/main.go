@@ -4,8 +4,8 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/tokubai/kinu/config"
-	"github.com/tokubai/kinu/resizer"
+	"github.com/9toon/kinu/config"
+	"github.com/9toon/kinu/resizer"
 )
 
 var (

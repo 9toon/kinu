@@ -13,10 +13,10 @@ import (
 	"time"
 
 	"github.com/sirupsen/logrus"
-	"github.com/tokubai/kinu/logger"
-	"github.com/tokubai/kinu/resizer"
-	"github.com/tokubai/kinu/storage"
-	"github.com/tokubai/kinu/uploader"
+	"github.com/9toon/kinu/logger"
+	"github.com/9toon/kinu/resizer"
+	"github.com/9toon/kinu/storage"
+	"github.com/9toon/kinu/uploader"
 )
 
 var (

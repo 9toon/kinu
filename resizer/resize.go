@@ -2,8 +2,8 @@ package resizer
 
 import (
 	"github.com/sirupsen/logrus"
-	"github.com/tokubai/kinu/engine"
-	"github.com/tokubai/kinu/logger"
+	"github.com/9toon/kinu/engine"
+	"github.com/9toon/kinu/logger"
 )
 
 const (

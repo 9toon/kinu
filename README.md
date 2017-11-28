@@ -14,13 +14,13 @@ It's development now for first alpha release.
 
 ```
 # Please to Install the ImageMagick before this
-go get github.com/tokubai/kinu
+go get github.com/9toon/kinu
 ```
 
 or 
 
 ```
-docker pull tokubai/kinu:1.0.0.alpha5
+docker pull 9toon/kinu:1.0.0.alpha5
 ```
 
 ## Startup
@@ -45,7 +45,7 @@ $ curl http://localhost:8080/version
 #### docker run
 
 ```
-$ docker run tokubai/kinu:1.0.0.alpha5
+$ docker run 9toon/kinu:1.0.0.alpha5
 INFO[0000] setup resize engine                           resize_engine_type=ImageMagick
 INFO[0000] setup storage                                 storage_type=File
 INFO[0000] [starting kinu on 0.0.0.0:80]
@@ -155,7 +155,7 @@ now writing
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/tokubai/kinu
+Bug reports and pull requests are welcome on GitHub at https://github.com/9toon/kinu
 
 ## Thanks
 

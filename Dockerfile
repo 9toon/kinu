@@ -26,8 +26,8 @@ RUN mkdir -p /tmp/golang && \
     tar zxf go${GOLANG_VERSION}.linux-amd64.tar.gz && \
     mv ./go /usr/local/go && \
     mkdir /usr/local/go/vendor && \
-    go get -d github.com/tokubai/kinu && \
-    cd /usr/local/go/vendor/src/github.com/tokubai/kinu/ && \
+    go get -d github.com/9toon/kinu && \
+    cd /usr/local/go/vendor/src/github.com/9toon/kinu/ && \
     git fetch && git checkout refs/tags/${KINU_VERSION} && \
     go build -o /usr/local/bin/kinu . && \
     mkdir -p /var/local/kinu && \
