@@ -26,7 +26,7 @@ func Resize(image []byte, option *ResizeOption) (result *ResizeResult) {
 	}
 
 	var coodinates *Coodinates
-	if option.HasSizeHint() && !option.NeedsManualCrop {
+	if option.HasSizeHint() {
 		calculator.SetImageSize(option.SizeHintWidth, option.SizeHintHeight)
 		coodinates = calculator.Calc(option)
 		engine.SetSizeHint(coodinates.ResizeWidth, coodinates.ResizeHeight)
