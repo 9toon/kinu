@@ -4,10 +4,10 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/tokubai/kinu/engine"
-	"github.com/tokubai/kinu/logger"
-	"github.com/tokubai/kinu/resizer"
-	"github.com/tokubai/kinu/storage"
+	"github.com/9toon/kinu/engine"
+	"github.com/9toon/kinu/logger"
+	"github.com/9toon/kinu/resizer"
+	"github.com/9toon/kinu/storage"
 )
 
 type ErrUpload struct {
