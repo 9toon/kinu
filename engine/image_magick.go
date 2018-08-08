@@ -67,6 +67,11 @@ func (e *ImageMagickEngine) RemoveAlpha() error {
 }
 
 func (e *ImageMagickEngine) Resize(width int, height int) error {
+	threadLimit := e.mw.getResourceLimit(imagick.RESOURCE_THREAD)
+	logger.WithFields(logrus.Fields{
+	      "ThreadLimit": threadLimit
+	}).Debug("thread limit")
+
 	return e.mw.ResizeImage(uint(width), uint(height), imagick.FILTER_LANCZOS, 1.0)
 }
 
