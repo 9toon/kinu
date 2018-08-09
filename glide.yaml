@@ -1,0 +1,31 @@
+package: .
+import:
+- package: github.com/9toon/kinu
+  subpackages:
+  - config
+  - engine
+  - logger
+  - resizer
+  - resource
+  - storage
+  - uploader
+- package: github.com/aws/aws-sdk-go
+  subpackages:
+  - aws
+  - aws/awserr
+  - aws/session
+  - service/s3
+- package: github.com/doloopwhile/logrusltsv
+- package: github.com/getsentry/raven-go
+- package: github.com/julienschmidt/httprouter
+- package: github.com/satori/go.uuid
+- package: github.com/sirupsen/logrus
+- package: github.com/vincent-petithory/dataurl
+- package: github.com/zenazn/goji
+  subpackages:
+  - bind
+  - graceful
+- package: gopkg.in/gographics/imagick.v2
+  version: ^2.5.0
+  subpackages:
+  - imagick

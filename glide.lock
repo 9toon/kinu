@@ -1,0 +1,82 @@
+hash: d466b0605c54e83c6dcd07e06f20d36d25173dc5f43dbf95476a6d27598a7810
+updated: 2018-08-09T15:00:23.636325858+09:00
+imports:
+- name: github.com/9toon/kinu
+  version: f7fb19ac7eb436db5eaa540e81423f11ed6338ec
+  subpackages:
+  - config
+  - engine
+  - logger
+  - resizer
+  - resource
+  - storage
+  - uploader
+- name: github.com/aws/aws-sdk-go
+  version: cd721c97ef6fcfcb76b4feb14fcfead57fb01e5e
+  subpackages:
+  - aws
+  - aws/awserr
+  - aws/awsutil
+  - aws/client
+  - aws/client/metadata
+  - aws/corehandlers
+  - aws/credentials
+  - aws/credentials/ec2rolecreds
+  - aws/credentials/endpointcreds
+  - aws/credentials/stscreds
+  - aws/defaults
+  - aws/ec2metadata
+  - aws/endpoints
+  - aws/request
+  - aws/session
+  - aws/signer/v4
+  - internal/shareddefaults
+  - private/protocol
+  - private/protocol/query
+  - private/protocol/query/queryutil
+  - private/protocol/rest
+  - private/protocol/restxml
+  - private/protocol/xml/xmlutil
+  - service/s3
+  - service/sts
+- name: github.com/certifi/gocertifi
+  version: deb3ae2ef2610fde3330947281941c562861188b
+- name: github.com/doloopwhile/logrusltsv
+  version: e443ef033653c7f3be7a2252617a63f18d4d294a
+- name: github.com/getsentry/raven-go
+  version: 7535a8fa2ace0ffb684b19f28d00655459ea2dae
+- name: github.com/go-ini/ini
+  version: d58d458bec3cb5adec4b7ddb41131855eac0b33f
+- name: github.com/jmespath/go-jmespath
+  version: c2b33e8439af944379acbdd9c3a5fe0bc44bd8a5
+- name: github.com/julienschmidt/httprouter
+  version: 8c199fb6259ffc1af525cc3ad52ee60ba8359669
+- name: github.com/pkg/errors
+  version: 816c9085562cd7ee03e7f8188a1cfd942858cded
+- name: github.com/satori/go.uuid
+  version: 879c5887cd475cd7864858769793b2ceb0d44feb
+- name: github.com/sirupsen/logrus
+  version: d329d24db4313262a3b0a24d8aeb1dc4bd294fb0
+- name: github.com/vincent-petithory/dataurl
+  version: 9a301d65acbb728fcc3ace14f45f511a4cfeea9c
+- name: github.com/zenazn/goji
+  version: 64eb34159fe53473206c2b3e70fe396a639452f2
+  subpackages:
+  - bind
+  - graceful
+  - graceful/listener
+- name: golang.org/x/crypto
+  version: de0752318171da717af4ce24d0a2e8626afaeb11
+  subpackages:
+  - ssh/terminal
+- name: golang.org/x/sys
+  version: 904bdc257025c7b3f43c19360ad3ab85783fad78
+  subpackages:
+  - unix
+  - windows
+- name: gopkg.in/gographics/imagick.v2
+  version: 589a8ef16fd4f08a29ad26afe5c33fb5673e4efc
+  subpackages:
+  - imagick
+  - imagick/types
+testImports: []
