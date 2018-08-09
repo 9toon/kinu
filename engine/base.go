@@ -6,7 +6,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 	"github.com/9toon/kinu/logger"
-	"gopkg.in/gographics/imagick.v1/imagick"
+	"gopkg.in/gographics/imagick.v2/imagick"
 )
 
 type ResizeEngine interface {
