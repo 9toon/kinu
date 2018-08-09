@@ -3,7 +3,7 @@ package config
 import (
 	"os"
 
-	"github.com/tokubai/kinu/logger"
+	"github.com/9toon/kinu/logger"
 )
 
 var (

@@ -12,7 +12,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	awsSession "github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/tokubai/kinu/logger"
+	"github.com/9toon/kinu/logger"
 )
 
 type BackwardCompatibleS3Storage struct {

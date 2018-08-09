@@ -6,9 +6,9 @@ import (
 
 	"github.com/sirupsen/logrus"
 	"github.com/julienschmidt/httprouter"
-	"github.com/tokubai/kinu/logger"
-	"github.com/tokubai/kinu/resizer"
-	"github.com/tokubai/kinu/resource"
+	"github.com/9toon/kinu/logger"
+	"github.com/9toon/kinu/resizer"
+	"github.com/9toon/kinu/resource"
 )
 
 type ImageGetRequest struct {
