@@ -6,8 +6,8 @@ import (
 	"os"
 
 	"github.com/sirupsen/logrus"
-	"github.com/tokubai/kinu/config"
-	"github.com/tokubai/kinu/logger"
+	"github.com/9toon/kinu/config"
+	"github.com/9toon/kinu/logger"
 )
 
 type Storage interface {

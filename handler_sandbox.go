@@ -6,8 +6,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/julienschmidt/httprouter"
 	"github.com/satori/go.uuid"
-	"github.com/tokubai/kinu/logger"
-	"github.com/tokubai/kinu/resource"
+	"github.com/9toon/kinu/logger"
+	"github.com/9toon/kinu/resource"
 )
 
 const SANDBOX_IMAGE_TYPE = "__sandbox__"
