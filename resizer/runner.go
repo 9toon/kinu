@@ -7,7 +7,7 @@ import (
 	"strconv"
 
 	"github.com/sirupsen/logrus"
-	"github.com/tokubai/kinu/logger"
+	"github.com/9toon/kinu/logger"
 )
 
 type ResizeRequest struct {

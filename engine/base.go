@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/sirupsen/logrus"
-	"github.com/tokubai/kinu/logger"
+	"github.com/9toon/kinu/logger"
 	"gopkg.in/gographics/imagick.v2/imagick"
 )
 

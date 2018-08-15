@@ -6,10 +6,10 @@ import (
 
 	"github.com/julienschmidt/httprouter"
 	"github.com/sirupsen/logrus"
-	"github.com/tokubai/kinu/logger"
-	"github.com/tokubai/kinu/resizer"
-	"github.com/tokubai/kinu/resource"
-	"github.com/tokubai/kinu/storage"
+	"github.com/9toon/kinu/logger"
+	"github.com/9toon/kinu/resizer"
+	"github.com/9toon/kinu/resource"
+	"github.com/9toon/kinu/storage"
 )
 
 func GetImageHandler(w http.ResponseWriter, r *http.Request, ps httprouter.Params) {

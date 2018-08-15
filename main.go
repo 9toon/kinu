@@ -14,8 +14,8 @@ import (
 	"github.com/getsentry/raven-go"
 
 	"github.com/julienschmidt/httprouter"
-	"github.com/tokubai/kinu/engine"
-	"github.com/tokubai/kinu/logger"
+	"github.com/9toon/kinu/engine"
+	"github.com/9toon/kinu/logger"
 	"github.com/vincent-petithory/dataurl"
 	"github.com/zenazn/goji/bind"
 	"github.com/zenazn/goji/graceful"
